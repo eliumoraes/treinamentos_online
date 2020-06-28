@@ -1,0 +1,32 @@
+Neste arquivo deixarei armazenadas algumas observações
+que achar interessante sobre os desafios.
+
+04 - Casas decimais
+Neste desafio aprendi uma forma interessante de realizar
+uso das casas decimais.
+
+Padrão: format(num, '.6f')
+
+Onde num é a variável e o conteúdo após a vírgula
+indica a quantidade de casas a serem demonstradas
+após o ponto.
+
+
+08 - Leading Numbers / Ternary Operators
+Neste exercício foi possível aprender a realizar o uso
+de leading numbers, ou seja, utilizar casas à frente do
+número, preenchendo os espaços com zeros.
+
+Exemplo:
+h = str(int(9).zfill(2)
+
+Nesse caso o h deverá conter o valor 09
+
+Na questão dos ternários o conceito diz o seguinte:
+
+value_if_true if condition else value_if_false
+
+Exemplo:
+h = h if (h != '12') else '00'
+
+Nesse caso o h irá guardar '00' se for igual a 12.
